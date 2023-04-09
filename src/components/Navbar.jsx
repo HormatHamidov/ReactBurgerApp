@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '/public/logo.png'
 import { Link } from 'react-router-dom'
-import '../../styles/Navbar.css'
+import '../styles/Navbar.css'
 
 const Navbar = () => {
     return (
@@ -11,7 +11,7 @@ const Navbar = () => {
 
                 <div className="nav__links">
                     <Link to="/">
-                        Ana Sehife
+                        Home
                     </Link>
                     <Link to="/menu">
                         Menu

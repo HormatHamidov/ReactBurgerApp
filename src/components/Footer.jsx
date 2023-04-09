@@ -1,5 +1,5 @@
 import React from 'react'
-import '..//..//styles/Footer.css'
+import '../styles/Footer.css'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -12,7 +12,7 @@ const Footer = () => {
             <InstagramIcon/>
             <LinkedInIcon/>
         </div>
-        <p>Butun haqqlar qorunur | BurgerKing</p>
+        <p>All rights reserved | BurgerKing</p>
     </div>
   )
 }
